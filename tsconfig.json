@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "strict": true
+    "strict": true,
   },
-  "include": ["src/**/*.ts"],
+  "include": ["test/*.ts"],
   "exclude": ["node_modules"]
 }
