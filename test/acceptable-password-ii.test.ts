@@ -14,7 +14,7 @@ describe('Acceptable password', () => {
     });
 
     test('should return true when the password length should be bigger than 6', () => {
-        const result = acceptablePassword.validatePassword('password2');
+        const result = acceptablePassword.validatePassword('muchlonger5');
         expect(result).toBeTruthy();
     });
 
